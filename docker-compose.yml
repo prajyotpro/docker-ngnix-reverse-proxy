@@ -6,7 +6,6 @@ services:
   web:
     # Instead of referencing image: nginx:mainline-alpine here, use build to
     # reference the current directory (.), which will look for a dockerfile
-    # by default. In this tutorial, this is C:\Articles\NGINX-PHP
     build: .
     # The external directory location to map to an internal location
     volumes:
